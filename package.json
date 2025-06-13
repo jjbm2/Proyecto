@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "-": "^0.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.2",
+    "y": "^0.3.2"
+  },
+  "name": "hola",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+  "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
