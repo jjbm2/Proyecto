@@ -2,6 +2,7 @@ import mongoose from "mongoose";
 import dotenv from "dotenv";
 import express from "express";
 import cors from "cors";
+import { test } from "./backend/controlles/Palabras.controler.js";
 
 dotenv.config();
 mongoose.connect(process.env.urlbd)
@@ -17,3 +18,4 @@ mongoose.connect(process.env.urlbd)
     })
 
 
+test(); // Call the test function from Palabras.controler.js
